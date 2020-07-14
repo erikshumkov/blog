@@ -1,0 +1,7 @@
+.dashboard {
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  main.dashboard-view {
+    background-color: var(--main-bgc);
+  }
+}

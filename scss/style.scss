@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+  --main-bgc: #fafafa;
+  --menu-bgc: #fff;
+}
+
+body {
+  background-color: var(--main-bgc);
+}
+
+@import './header/navigation';
+@import './main/main';
+@import './blogpost/blogpost';
+
+// Admin section
+@import './dashboard/dashboard';
+@import './dashboard/navigation';
+@import './dashboard/content';
+@import './dashboard/addpost';
