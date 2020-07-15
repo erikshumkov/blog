@@ -111,7 +111,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  height: 100%;
   background-color: var(--menu-bgc);
   border-right: 1.5px solid #e4e4e4; }
   .dashboard-menu .logo {
@@ -162,5 +162,57 @@ main.dashboard-view {
   padding: 35px 80px;
   border-radius: 18px;
   width: 70%; }
+  .dashboard-content form h3 {
+    margin-bottom: 30px; }
+  .dashboard-content form .form-group {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 20px; }
+    .dashboard-content form .form-group label {
+      position: absolute;
+      z-index: 10;
+      top: 15px;
+      left: 15px;
+      font-size: 13px;
+      color: grey; }
+    .dashboard-content form .form-group input,
+    .dashboard-content form .form-group textarea {
+      padding: 35px 15px 15px 15px;
+      border: 1px solid lightgrey;
+      outline: 0;
+      border-radius: 8px; }
+  .dashboard-content form button {
+    background: #ff8183;
+    background: linear-gradient(180deg, #ff8183 0%, #f8656d 100%);
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0.9rem 1.7rem;
+    border: none;
+    border-radius: 0.3rem;
+    color: white;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    font-weight: bolder;
+    outline: 0;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer; }
+  .dashboard-content form button[type='submit'] {
+    background: #ff8183;
+    background: linear-gradient(180deg, #ff8183 0%, #f8656d 100%);
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0.9rem 1.7rem;
+    border: none;
+    border-radius: 0.3rem;
+    color: white;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    font-weight: bolder;
+    outline: 0;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer; }
 
 /*# sourceMappingURL=style.css.map */
