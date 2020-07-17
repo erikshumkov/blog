@@ -100,6 +100,48 @@ footer {
   background-color: #d8d8d8;
   height: 200px; }
 
+main.login .container {
+  padding: 80px 0;
+  display: flex;
+  justify-content: center; }
+  main.login .container form {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 35px 50px;
+    width: 400px; }
+    main.login .container form h1 {
+      margin-bottom: 30px; }
+    main.login .container form .form-group {
+      display: flex;
+      flex-direction: column; }
+      main.login .container form .form-group label {
+        font-size: 13px;
+        color: grey;
+        margin-bottom: 10px; }
+      main.login .container form .form-group input {
+        margin-bottom: 20px;
+        padding: 15px 15px 15px 15px;
+        border: 1px solid lightgrey;
+        outline: 0;
+        border-radius: 8px; }
+    main.login .container form button {
+      background: #ff8183;
+      background: linear-gradient(180deg, #ff8183 0%, #f8656d 100%);
+      position: relative;
+      overflow: hidden;
+      margin: 0;
+      padding: 0.9rem 1.7rem;
+      border: none;
+      border-radius: 0.3rem;
+      color: white;
+      letter-spacing: 0.5px;
+      font-size: 16px;
+      font-weight: bolder;
+      outline: 0;
+      box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+      cursor: pointer; }
+
 .dashboard {
   display: grid;
   grid-template-columns: 20% 1fr; }
